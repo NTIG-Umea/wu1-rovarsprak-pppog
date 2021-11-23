@@ -33,3 +33,15 @@ main {
 #message > p {
     word-break: break-all;
 }
+
+button {
+    transition: 0.4s;
+    background-color: white;
+    outline: hotpink solid 0px;
+}
+
+button:hover {
+    cursor: pointer;
+background-color: black;
+color: white;
+}
